@@ -7,7 +7,7 @@ Meu nome é Daniel Bony, tenho 19 anos de idade. Estou no quarto período da fac
 
 # Portfólio Pessoal
 
-> *Portfólio web*
+> *Portfólio web - Daniel Bony*
 
 ---
 
@@ -15,8 +15,8 @@ Meu nome é Daniel Bony, tenho 19 anos de idade. Estou no quarto período da fac
 
 Esse
 
-* **Objetivo:** [Ex: Criar uma plataforma para organizar tarefas diárias]
-* **Público-alvo:** [Ex: Estudantes e profissionais]
+* **Objetivo:** Criar uma plataforma web para organizar e deixar a mostra minhas habilidades de programação e desenvolvimento
+* **Público-alvo:** Recrutadores
 
 ---
 
@@ -28,7 +28,7 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 ![Tela Inicial](./caminho-da-imagem-1.png)
 ![Outra Tela](./caminho-da-imagem-2.png)
 
-> 🔗 **Link do Figma:** [Clique aqui para acessar o protótipo interativo](https://figma.com)
+> 🔗 **Link do Figma:** [Clique aqui para acessar o protótipo interativo](https://www.figma.com/design/e4Malif4A6em6Vo9LXrWvZ/Untitled?node-id=0-1&t=WITG0Hr00AYAHLcq-1)
 
 ---
 
