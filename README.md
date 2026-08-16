@@ -25,18 +25,22 @@ Esse
 Aqui estão as imagens das telas e do fluxo da aplicação:
 
 ### 📱 Layout / Telas
-![Tela Inicial](./caminho-da-imagem-1.png)
-![Outra Tela](./caminho-da-imagem-2.png)
+![Sobre mim](./src/assets/images/Sobre%20mim.png)
+![Experiencias](./src/assets/images/Experiencias.png)
+![Projetos](./src/assets/images/Projetos.png)
+![Contato](./src/assets/images/Contato.png)
+![Imagem ou Gif do projeto](./src/assets/images/Imagem%20ou%20Gif%20projeto.png)
 
-> 🔗 **Link do Figma:** [Clique aqui para acessar o protótipo interativo](https://www.figma.com/design/e4Malif4A6em6Vo9LXrWvZ/Untitled?node-id=0-1&t=WITG0Hr00AYAHLcq-1)
+> 🔗 **Link do Figma:** (https://www.figma.com/design/e4Malif4A6em6Vo9LXrWvZ/Untitled?node-id=0-1&t=WITG0Hr00AYAHLcq-1)
 
 ---
 
 ## 🛠️ Tecnologias Previstas
 
-* **Front-end:** HTML, CSS, JavaScript
-* **Back-end:** * **Design & UX:** Figma
-* **Versionamento:** Git e GitHub
+* **Front-end:** React.js, JavaScript (ES6+), HTML5, CSS3 / Vite
+* **Navegação & Roteamento:** React Router DOM
+* **Design & Prototipação:** Figma
+* **Versionamento & Deploy:** Git, GitHub e Vercel / Render
 
 ---
 
