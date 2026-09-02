@@ -13,8 +13,6 @@ Meu nome é Daniel Bony, tenho 19 anos de idade. Estou no quarto período da fac
 
 ## 📌 Descrição do Projeto
 
-Esse
-
 * **Objetivo:** Criar uma plataforma web para organizar e deixar a mostra minhas habilidades de programação e desenvolvimento
 * **Público-alvo:** Recrutadores
 
