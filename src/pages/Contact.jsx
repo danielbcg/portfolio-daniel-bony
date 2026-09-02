@@ -1,4 +1,5 @@
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa6";
 import { useLanguage } from "../context/LanguageContext";
 import GreenButton from "../components/GreenButton";
@@ -7,15 +8,43 @@ export default function Contact() {
   const { t } = useLanguage();
   const [form, setForm] = useState({ email: "", phone: "", message: "" });
   const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     if (!form.email || !form.message) {
       setStatus(t.contact.errMsg);
       return;
     }
-    setStatus(t.contact.successMsg);
-    setForm({ email: "", phone: "", message: "" });
+
+    setLoading(true);
+    setStatus("");
+
+    // Suas chaves do EmailJS configuradas
+    const SERVICE_ID = "service_czoffhc";
+    const TEMPLATE_ID = "template_x4jtt4o";
+    const PUBLIC_KEY = "oxEKSXKOgKbJ42fwd";
+
+    const templateParams = {
+      from_email: form.email,
+      phone: form.phone || "Não informado",
+      message: form.message,
+    };
+
+    emailjs
+      .send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY)
+      .then(() => {
+        setStatus(t.contact.successMsg);
+        setForm({ email: "", phone: "", message: "" });
+      })
+      .catch((err) => {
+        console.error("Erro ao enviar email:", err);
+        setStatus("Erro ao enviar a mensagem. Tente novamente mais tarde.");
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   };
 
   return (
@@ -83,11 +112,22 @@ export default function Contact() {
           />
         </div>
         <div style={{ textAlign: "center", marginTop: "1rem" }}>
-          <GreenButton text={t.contact.btnSend} type="submit" />
+          <GreenButton
+            text={loading ? "Enviando..." : t.contact.btnSend}
+            type="submit"
+            disabled={loading}
+          />
         </div>
         {status && (
           <p
-            style={{ color: "#489700", textAlign: "center", marginTop: "1rem" }}
+            style={{
+              color:
+                status.includes("sucesso") || status.includes("success")
+                  ? "#489700"
+                  : "#ff4d4d",
+              textAlign: "center",
+              marginTop: "1rem",
+            }}
           >
             {status}
           </p>
