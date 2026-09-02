@@ -33,6 +33,16 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 
 > 🔗 **Link do Figma:** (https://www.figma.com/design/e4Malif4A6em6Vo9LXrWvZ/Untitled?node-id=0-1&t=WITG0Hr00AYAHLcq-1)
 
+
+### PROJETO EM EXECUÇÃO DEPLOYADO
+
+![Sobre mim](./src/assets/images/About%20Me.jpeg)
+![Experiencias](./src/assets/images/Experience.jpeg)
+![Projetos](./src/assets/images/Projects.jpeg)
+![Contato](./src/assets/images/Contact.jpeg)
+
+
+
 ---
 
 ## 🛠️ Tecnologias Previstas
