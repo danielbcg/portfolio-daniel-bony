@@ -39,7 +39,9 @@ Aqui estão as imagens das telas e do fluxo da aplicação:
 ![Projetos](./src/assets/images/Projects.jpeg)
 ![Contato](./src/assets/images/Contact.jpeg)
 
+### LINK DO DEPLOY
 
+https://portfolio-daniel-bony.vercel.app/
 
 ---
 
